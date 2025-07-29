@@ -31,7 +31,7 @@ app.add_middleware(
 )
 
 # Configuration
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyATDLOm55IA60SZqd4mUmdCQzhsif5-1aM")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "your_api_key")
 MONGODB_URL = os.getenv("MONGODB_URL", "mongodb://localhost:27017")
 DB_NAME = "lms_code_feedback"
 
